@@ -13,13 +13,17 @@ By calling a `/rnd` slash command
 
 You can:
 
-- launch a dice one time: `/rnd 6`
+- launch a dice one time:  
+  `/rnd 6`  
   ![dice](dice-one-time.jpg)
-- or launch the dice 50 times: `/rnd 6 50`  
+- or launch the dice 50 times:  
+  `/rnd 6 50`  
   ![dice 50 times](dice-50-times.jpg)
-- decide to go left or right: `/rnd LEFT | RIGHT`  
+- decide to go left or right:  
+  `/rnd LEFT | RIGHT`  
   ![left or right](left-right.jpg)
-- make a choice between several possibilities over a defined number of trials: `/rnd 100 | One Choice | Another one | A final possibility`  
+- make a choice between several possibilities over a defined number of trials:  
+  `/rnd 100 | One Choice | Another one | A final possibility`  
   ![choices](choice-over-possibilities.jpg)
 
 
@@ -100,4 +104,4 @@ For example, if you named the command `random`, you can configure it by executin
 
 launch 
 - `npm test`: to execute the tests
-- `npm run test:watch`: to exeecute the tests each time you do a modification in the sources
+- `npm run test:watch`: to execute the tests each time you do a modification in the sources
