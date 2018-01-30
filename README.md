@@ -13,9 +13,15 @@ By calling a `/rnd` slash command
 
 You can:
 
-- decide to go left or right: `/rnd LEFT | RIGHT`
+- launch a dice one time: `/rnd 6`
+  ![dice](dice-one-time.jpg)
+- or launch the dice 50 times: `/rnd 6 50`  
+  ![dice 50 times](dice-50-times.jpg)
+- decide to go left or right: `/rnd LEFT | RIGHT`  
   ![left or right](left-right.jpg)
-- launch a dice one time
+- make a choice between several possibilities over a defined number of trials: `/rnd 100 | One Choice | Another one | A final possibility`  
+  ![choices](choice-over-possibilities.jpg)
+
 
 ## Set up
 Setting this up requires doing some initial Firebase setup, then doing some initial Mattermost setup, then wiring the two systems together.
